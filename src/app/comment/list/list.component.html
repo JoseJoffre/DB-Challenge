@@ -1,0 +1,11 @@
+<table class="table table-hover">
+    <thead class="commenth">
+        Últimos Comentários
+    </thead>
+    <tbody>
+        <tr *ngFor="let comment of comments | async">
+            <td id="msg">{{ comment.message }}</td>
+            <td id="name">{{ comment.name }}</td>
+        </tr>
+    </tbody>
+</table>

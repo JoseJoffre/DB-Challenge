@@ -1,0 +1,29 @@
+.commenth {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #84087e;
+    opacity: 1;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#msg {
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #515151;
+    opacity: 1;
+    display: block;
+    margin-top: 69px;
+}
+
+#name {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #515151;
+    opacity: 1;
+    display: block;
+    margin-top: 29px;
+}

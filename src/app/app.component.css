@@ -1,0 +1,26 @@
+.header {
+    top: 137px;
+    left: 130px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #84087e;
+    opacity: 1;
+    font-size: 60px;
+}
+
+#bg-graf {
+    position: absolute;
+    top: 0px;
+    left: 1300px;
+    width: 489px;
+    height: 868px;
+    background: #84087e url("../assets/background_grafismos_roxo.svg") 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#logo {
+    margin-bottom: 98px;
+}

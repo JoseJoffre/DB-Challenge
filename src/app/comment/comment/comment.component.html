@@ -1,0 +1,13 @@
+<form (ngSubmit)="onSubmit()">
+    <label>Nome</label>
+    <div class="form-group-name">
+        <input type="text" name="name" [(ngModel)]="comment.name" class="form-control-name" />
+    </div>
+    <label>Mensagem</label>
+    <div class="message">
+        <textarea type="text" name="message" [(ngModel)]="comment.message" class="form-control-message">
+    </textarea>
+    </div>
+
+    <button class="btn btn-prymary">Adicionar</button>
+</form>
